@@ -1,0 +1,227 @@
+/* REMEMBER MOBILE FIRST */
+
+ body {
+    background-image: url('../css/images/polka-dot-2.png');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+ }
+
+
+ /* COLORS */
+
+ :root {
+    --light-blue: #d7f8f8;
+    --turquoise: #5ce3e4;
+    --carribean-green: #04c4aa;
+    --gold: #fbc740;
+    --pink: #f81e72;
+ }
+
+
+ /* HEADER */
+
+ header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--turquoise);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #logo {
+    width: 100px;
+    height: 100px;
+ }
+
+ #hamburger-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+     
+ }
+
+ .nav-bar {
+    display: none;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--turquoise);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0 10px;
+ }
+
+ .nav-bar a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+ }
+
+ .nav-bar a:hover {
+     color: var(--pink);
+ }
+
+ @media (min-width: 800px) {
+    header {
+        align-items: flex-end;
+    }
+
+    #hamburger-icon {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+ }
+
+/* DROP DOWN MENU */
+
+.drop-down-menu-list {
+    display: none;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--turquoise);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 10px;
+    position: absolute;
+    top: 88px;
+    right: 0px;
+    width: 70px;
+    height: 125px;
+    z-index: 3;
+    transition: all 0.25s ease-in-out;
+}
+
+.drop-down-menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.drop-down-menu-list a:hover {
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.explore-more-arrow {
+    cursor: pointer;
+}
+
+.show {
+    display: flex;
+}
+
+
+
+/* SIDE BAR MENU */
+
+#hamburger-icon:hover {
+    cursor: pointer;
+}
+
+.side-bar-menu {
+    display: none;
+    padding-top: 25px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 100;
+    z-index: 2;
+    background-color: var(--light-blue);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.side-bar-menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar-menu-list a {
+    text-decoration: none;
+    color: var(--carribean-green);
+}
+
+.side-bar-menu-list a:hover {
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 5px;
+}
+
+.side-bar-drop-down-menu-list {
+    display: none;
+}
+
+.show-side-menu {
+    display: block;
+}
+
+.show-side-menu-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* BANNER */
+
+.banner-title {
+    background-color: var(--turquoise);
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+ /* FOOTER */
+
+ #ig-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+ }
+
+ footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px solid var(--turquoise); */
+ }
+
+ footer div {
+    background-color: var(--turquoise);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-left: 10px;
+ }
+
+ footer p {
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+ }

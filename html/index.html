@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Path to Sweetness</title>
+    <link rel="icon" href="../css/images/logo-wave-transparent.png" type="image/png" sizes="24x24">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- REMEMBER MOBILE FIRST -->
+    <header>
+        <a href="index.html"><img id="logo" src="../css/images/logo-wave-transparent.png" alt="Logo"></a>
+        <img id="hamburger-icon" src="../css/images/hamburger-icon/hamburger-icon-blue.png">
+        <ul class="nav-bar">
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="#">Explore More</a>
+            <img class="explore-more-arrow" id="nav-bar-arrow" src="../css/images/arrow-down/arrow-down-white.png">
+        </ul>
+    </header>
+
+    <!-- DROP DOWN MENU -->
+    <aside class="drop-down-menu">
+        <ul class="drop-down-menu-list">
+            <a href="../html/cakes.html">Cakes</a>
+            <a href="../html/cookies.html">Cookies</a>
+            <a href="../html/bread.html">Bread</a>
+            <a href="../html/savory.html">Savory</a>
+            <a href="../html/other.html">Other</a>
+        </ul>
+    </aside>
+
+    <!-- SIDE BAR MENU -->
+    <aside class="side-bar-menu side-bar-menu-position">
+        <ul class="side-bar-menu-list">
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="#">Explore More <img class="explore-more-arrow-sidemenu" src="../css/images/arrow-down/1x/outline_expand_more_black_24dp.png"></a>
+                <ul class="side-bar-drop-down-menu-list">
+                    <!-- <img src="./css/images/arrow-up/1x/outline_expand_less_black_24dp.png"> -->
+                    <a href="../html/cakes.html">Cakes</a>
+                    <a href="../html/cookies.html">Cookies</a>
+                    <a href="../html/bread.html">Bread</a>
+                    <a href="../html/savory.html">Savory</a>
+                    <a href="../html/other.html">Other</a>
+                </ul>
+            <br>
+            <a href="#" class="close-sidemenu-button">Close</a>
+        </ul>
+    </aside>
+
+    <main>
+
+        <!-- BANNER SECTION-->
+        <section class="banner">
+            <div class="banner-heading">
+                <!-- <img class="avatar" src="../css/images/avatar-transparent.png"> -->
+                <h1 class="banner-title">A Path <br>To Sweetness</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../css/images/cakes/chocolate-peanut-butter-cake.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../css/images/cookies/white-chocolate-macadamia-nut-cookies.JPG" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../css/images/other/mango-dragondruit-tart.JPG" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU SECTION -->
+        <section class="menu-container">
+            <h2 id="menu-title">This Week's Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item" id="item1">
+                    <div class="menu-image" id="item1-image"></div>
+                    <p class="menu-text">Ube Coconut Rolls</p>
+                </div>
+                <div class="menu-item" id="item2">
+                    <div class="menu-image" id="item2-image"></div>
+                    <p class="menu-text">Char Siu Pork Buns</p>
+                </div>
+                <div class="menu-item" id="item3">
+                    <div class="menu-image" id="item3-image"></div>
+                    <p class="menu-text">Matcha Cheesecake <br>with Oreo Cookie Crust</p>
+                </div>
+            </div>
+            <a href="menu.html"><button class="order-here-button">ORDER HERE!</button></a>
+        </section>
+
+        <!-- REVIEWS SECTION -->
+        <section class="reviews-container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-row-1">
+                <div class="review-item" id="review1">
+                    <div class="review-image" id="review1-image"></div>
+                    <p>"I got to try the pandan cocounut rolls and ube cheesecake which were both SUPER mouthwatering and exceeded my already high expectations!
+                        The Ube Cheesecake was the Bae's favorite, pointing out the unique coconut crust.
+                        I also loved the pandan rolls in both the looks and also the flavor and layers.
+                        The sweetness levels were on point" - @foodooboos
+                    </p>
+                </div>
+                <div class="review-item" id="review2">
+                    <div class="review-image" id="review2-image"></div>
+                    <p>"loved these sweet treats!" - @yumvy.eats</p>
+                </div>
+            </div>
+            <div class="reviews-row-2">
+                <div class="review-item" id="review3">
+                    <div class="review-image" id="review3-image"></div>
+                    <p>"As a connoisseur of matcha and cheesecake, I can only describe this one as perfect.<br>
+                        Total execution vibes from the aesthetic of the cheesecake itself, to the layers of taste and texture that wrap itself into a more than pleasant enjoyment.<br>
+                        The bold, earthy taste of the matcha cuts the potential for the oreos and cheesecake to be too sweet, which is what makes this one perfect.<br>
+                        Three layers make on textural masterpiece here-this one is a keeper" - @stoopkidseat
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <img src="../css/images/instragram-logo.png"  id="ig-icon" alt="Instragram Logo">
+            <p>Follow on Instagram: @apathtosweetness</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
