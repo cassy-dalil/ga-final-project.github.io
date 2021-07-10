@@ -205,7 +205,7 @@
 h2 {
     font-family: 'Rochester';
     text-align: center;
-    color: white;
+    color: var(--pink);
     font-size: 40px;
     margin: 10px 0 0 0;
 }
@@ -245,12 +245,12 @@ h2 {
     height: 250px;
     margin: 10px auto;
     border-radius: 10px;
+    transition: 0.2s ease-in-out;
 }
 
-/* .menu-image:hover {
-    width: 300px;
-    height: 300px;
-} */
+.menu-image:hover {
+    transform: scale(1.1);
+}
 
 #item1-image {
     background-image: url('../css/images/bread/ube-coconut-rolls.JPG');
@@ -310,7 +310,17 @@ h2 {
     position: absolute;
     bottom: 10;
     left: 20;
+    animation: bounce .5s infinite alternate;
 }
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-25px);
+    }
+  }
 
 /* #avatar-2 {
     display: none;

@@ -311,12 +311,12 @@ h2 {
     height: 250px;
     margin: 10px auto;
     border-radius: 10px;
+    transition: 0.2s ease-in-out;
 }
 
-/* .menu-image:hover {
-    width: 300px;
-    height: 300px;
-} */
+.menu-image:hover {
+    transform: scale(1.1);
+}
 
 #item1-image {
     background-image: url('../css/images/bread/ube-coconut-rolls.JPG');

@@ -201,13 +201,13 @@ h2 {
     margin-bottom: 5px;
 }
 
-.cakes-container {
+.items-container {
     display: grid;
     grid-template-columns: 1fr;
 }
 
 @media (min-width: 800px) {
-    .cakes-container {
+    .items-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
@@ -229,6 +229,12 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.items-image:hover {
+    transform: scale(1.2);
 }
 
 #items-image-1 {
@@ -257,6 +263,14 @@ h2 {
 
 #items-image-7 {
     background-image: url('./images/cakes/white-chocolate-raspberry-cheesecake.JPG');
+}
+
+#items-image-8 {
+    background-image: url('./images/cakes/caramel-apple-cheesecake-bars.JPG');
+}
+
+#items-image-9 {
+    background-image: url('./images/cakes/strawberry-shortcake-cheesecake-bars.JPG');
 }
 
 

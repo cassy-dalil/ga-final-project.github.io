@@ -191,6 +191,45 @@
 }
 
 
+/* ABOUT SECTION */
+
+h2 {
+    background-color: var(--turquoise);
+    border-radius: 10px;
+    font-family: 'Rochester';
+    font-size: 40px;
+    color: var(--pink);
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.about-container {
+    background-color: var(--turquoise);
+    border-radius: 10px;
+    color: white;
+    margin: 20px 10px;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width: 800px) {
+    .article-container {
+        margin: 0 20px;
+    }
+
+    .article-container p {
+        width: 600px;
+    }
+}
 
 
 
