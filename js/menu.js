@@ -56,6 +56,14 @@ function closeModal() {
     modal.classList.remove('open-modal');
 }
 
+// function errorNote() {
+//     if (orderName.length < 0 || phoneNumber.length < 10 || order.length < 0) {
+//         error.classList.add('show-error');
+//         modal.classList.remove('open-modal');
+//         console.log("Error!");
+//     }
+// };
+
 submitButton.addEventListener("click", openModal);
 closeModalButton.addEventListener("click", closeModal);
 
@@ -64,7 +72,7 @@ closeModalButton.addEventListener("click", closeModal);
     
 //     orderName.trim();
 
-//     if (orderName.length < 0 || phoneNumber < 0 || order < 0) {
+//     if (orderName.length < 0 || phoneNumber.length < 10 || order.length < 0) {
 //         error.classList.add('show-error');
 //     }
 // });
