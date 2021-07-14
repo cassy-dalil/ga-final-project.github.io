@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
  }
 
  #logo {
@@ -182,11 +183,11 @@ body {
 
 .banner-title {
     background-color: var(--turquoise);
+    border-radius: 10px;
     color: white;
     text-align: center;
     font-size: 48px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0 10px 10px 10px;
 }
 
 /* ITEMS SECTION */
@@ -198,7 +199,7 @@ h2 {
     font-size: 40px;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin: 5px 10px;
 }
 
 .items-container {
@@ -274,21 +275,21 @@ h2 {
 
  /* FOOTER */
 
- #ig-icon {
+#ig-icon {
     width: 20px;
     height: 20px;
     margin-right: 5px;
- }
+}
 
- footer {
+footer {
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* border-top: 1px solid var(--turquoise); */
- }
+}
 
- footer div {
+footer div {
     background-color: var(--turquoise);
     border-radius: 5px;
     display: flex;
@@ -296,10 +297,16 @@ h2 {
     align-items: center;
     padding: 0px 10px;
     margin-left: 10px;
- }
+}
 
- footer p {
+footer a {
+    text-decoration: none;
     color: white;
     font-size: 12px;
     margin: 10px;
- }
+}
+
+footer a:hover {
+    color: var(--pink);
+}
+
