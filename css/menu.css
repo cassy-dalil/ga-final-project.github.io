@@ -465,3 +465,12 @@ footer a:hover {
         left: 38%;
     }
 }
+
+.error {
+    color: var(--pink);
+    display: none;
+}
+
+.show-error {
+    display: block;
+}

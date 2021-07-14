@@ -95,15 +95,16 @@
             <div class="form-div">
                 <form>
                     <label for="name">Name</label><br>
-                    <input type="text" id="name"><br>
+                    <input type="text" id="name" required><br>
                     <br>
                     <label for="phonenumber">Phone Number</label><br>
-                    <input type="number" id="phonenumber"><br>
+                    <input type="number" id="phonenumber" required><br>
                     <br>
                     <label for="order">Order</label><br>
-                    <textarea rows="3" cols="30" id="order" name="order">Please include menu items and quantity</textarea>
+                    <textarea rows="3" cols="30" id="order" name="order" required>Please include menu items and quantity</textarea>
                     <br>
                     <button class="submit-button">Submit</button>
+                    <p class="error">*Please type something</p>
                 </form>
                 <img id="avatar" src="../css/images/avatar-transparent.png">
             </div>

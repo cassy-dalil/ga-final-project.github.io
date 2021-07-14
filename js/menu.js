@@ -42,11 +42,11 @@ let submitButton = document.querySelector(".submit-button");
 let modal = document.querySelector(".modal");
 let closeModalButton = document.querySelector("#close-modal");
 
+let orderName = document.querySelector("#name").value;
+let phoneNumber = document.querySelector("#phonenumber").value;
+let order = document.querySelector("#order").value;
+let error = document.querySelector(".error");
 
-submitButton.addEventListener("submit", function(event) {
-    event.preventDefault();
- 
-});
 
 function openModal() {
     modal.classList.add('open-modal');
@@ -58,3 +58,14 @@ function closeModal() {
 
 submitButton.addEventListener("click", openModal);
 closeModalButton.addEventListener("click", closeModal);
+
+// submitButton.addEventListener("submit", function(event) {
+//     event.preventDefault();
+    
+//     orderName.trim();
+
+//     if (orderName.length < 0 || phoneNumber < 0 || order < 0) {
+//         error.classList.add('show-error');
+//     }
+// });
+
