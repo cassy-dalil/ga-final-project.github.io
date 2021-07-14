@@ -451,17 +451,17 @@ footer a:hover {
     left: 5%;
 }
 
-@media (min-width: 800px) {
-    .order-submitted-box {
-        top: 40%;
-        left: 38%;
-    }
-}
-
 .open-modal {
     display: block;
 }
 
 #close-modal:hover {
     cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    .order-submitted-box {
+        top: 40%;
+        left: 38%;
+    }
 }
